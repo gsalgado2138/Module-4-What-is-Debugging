@@ -1,0 +1,5 @@
+greeting = input("Hello, possible pirate! What's the password?")  # added the extra quotation mark
+if greeting in ["Ar!"]:  # I changed it to the same sign (]) # I deleted the extra letters in arr
+	print("Go away, pirate.")
+elif greeting in ['not a pirate']:  # I added the phrase that was missing for the response
+	print("Greetings, hater of pirates!")  # I indented to match the other print at the top.
