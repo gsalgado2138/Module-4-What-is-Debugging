@@ -9,6 +9,7 @@ finalTime_Int ==> finalTimeInt
 
 Logic error: final time shows in hours 0-23
 finalTimeInt = (currentTimeInt + waitTimeInt) %24
+print(finalTimeInt)
 '''
 currentTimeInt = int('current_time_str')  # added quotation marks
 waitTimeInt = int('wait_time_str')   # added quotation marks
