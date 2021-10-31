@@ -37,6 +37,15 @@ if avg >= 90:
     letter_grade = "A"
 elif avg <= 80 and avg < 90:  # added a semicolon at the end if the phrase
     letter_grade = "B"
+''' 
+70-79 :C, 60-69: D, 0-59:F
+elif avg <= 70 and avg < 80:
+
+elif avg <= 60 and avg < 70:
+
+elif avg <= 0 and avg < 60:
+
+'''
 elif avg <= 69 and avg < 80:
     letter_grade = "C"  # added the same quotation mark
 elif avg >= 69 and avg >= 65:
@@ -47,11 +56,23 @@ elif avg >= 65 and avg >= 0:  # added a whole new phrase
 for grade in grades:
     print("Exam: " + str(grade))
 
+'''
+Average and Grade should be printed once, no indentation
+
+print("Average: " + str(avg))
+print("Grade: " + letter_grade)
+'''
     print("Average: " + str(avg))
 
     print("Grade: " + letter_grade)
 
-if letter-grade is "F":
+
+'''
+use "==" operator instead "is" operator
+if letter_grade == "F":
+'''
+
+if letter-grade is "F":   
     print("Student is failing.")  # added quotation marks and closed them with ()
 else:
     print("Student is passing.")  # added quotation marks and closed them
