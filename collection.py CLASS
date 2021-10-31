@@ -12,8 +12,13 @@
 authors = {
     "Charles Dickens": "1870",
     "William Thackeray": "1863",
-    "Anthony Trollope": "1882",
-    "Gerard Manley Hopkins": "1889", }   # added a comma after the year so it can match. Also closed out the statement
+    "Anthony Trollope": "1882",         
+    "Gerard Manley Hopkins": "1889", }   #No comma needed: added a comma after the year so it can match. Also closed out the statement
 
+
+'''
+for author, date in authors.items():
+    print("%s" % author + " died in " + "%s." % date)
+'''
 for author, date in authors.items():  # changed to different signs ()
     print("%s" % authors + " died in " + "%d." % Date)   # I added parentheses
