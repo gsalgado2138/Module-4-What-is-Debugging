@@ -12,5 +12,10 @@ if year <= 1900:  # added a semicolon because of the list
     print("Woah, that's the past!")  # added the same quotation marks to match
 elif year > 1900 & year < 2020:  # I deleted the extra & sign
     print("That's totally the present!")
+
+'''
+else:
+     print("Far out, that's the future!!")
+'''
 elif year > 1900 & year > 2020:
     print("Far out, that's the future!!")
